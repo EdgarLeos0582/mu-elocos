@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>MuñeLocos</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(244, 244, 244);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header {
+  background-color: rgb(100, 100, 255);
+  padding: 0px;
+  text-align: center;
+  font-size: 75px;
+  color: black;
+  font-family: 'Impact', Charcoal, sans-serif;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  gap: 15px;
+  flex: 1;
+}
+nav {
+  background: rgb(240, 240, 240);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+article {
+  -webkit-flex: 3; 
+  -ms-flex: 3; 
+  flex: 3; 
+  background-color: rgb(225, 225, 225);
+  padding: 10px;
+  text-align: Center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+footer {
+  background-color: rgb(210, 210, 210);
+  padding: 10px;
+  text-align: center;
+  color: black;
+  font-family: Sans-serif;
+}
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+  <header><font color="red">M</font><font color="blue">u</font><font color="yellow">ñ</font><font color="green">e</font><font color="purple">L</font><font color="orange">o</font><font color="fuchsia">c</font><font color="cyan">o</font><font color="lime">s</font></header>
+  <section>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="dinos.html">Dinosaurios</a>
+      <a href="exclusivos.html">Exclusivos</a>
+      <a href="registro.html">Registro/Iniciar sesion</a>
+    </nav>
+    <article>
+      <h1>Productos</h1>
+      <table width="100%" align="center">
+        <tr>
+          <td align="center" valign="top">
+            <h3>Oso</h3>
+            <img src="exclusivos/oso.png" height="200" width="200">
+            <p>$100</p>
+            <a href="oso.html">Comprar producto</a>
+          </td>
+          <td align="center" valign="top">
+            <h3>Tiburon</h3>
+            <img src="exclusivos/tiburon.png" height="200" width="200">
+            <p>$100</p>
+            <a href="tiburon.html">Comprar producto</a>
+          </td>
+          <td align="center" valign="top">
+            <h3>Onnom</h3>
+            <img src="exclusivos/onnom.png" height="200" width="200">
+            <p>$100</p>
+            <a href="onnom.html">Comprar producto</a>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" valign="top">
+            <h3>Niño cafe</h3>
+            <img src="exclusivos/jesusitu.png" height="200" width="200">
+            <p>$100</p>
+            <a href="oso.html">Comprar producto</a>
+          </td>
+          <td align="center" valign="top">
+            <h3>Amlo</h3>
+            <img src="exclusivos/amlo.png" height="200" width="200">
+            <p>$100</p>
+            <a href="tiburon.html">Comprar producto</a>
+          </td>
+          <td align="center" valign="top">
+            <h3>Claudia Sheinbaum</h3>
+            <img src="exclusivos/sheinbaum.png" height="200" width="200">
+            <p>$100</p>
+            <a href="onnom.html">Comprar producto</a>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" valign="top">
+            <h3>La Virgen de Guadalupe</h3>
+            <img src="exclusivos/virgencita.png" height="200" width="200">
+            <p>$100</p>
+            <a href="oso.html">Comprar producto</a>
+          </td>
+          <td align="center" valign="top">
+            <h3>Telcel Reno</h3>
+            <img src="exclusivos/telcel.png" height="200" width="200">
+            <p>$100</p>
+            <a href="tiburon.html">Comprar producto</a>
+          </td>
+          <td align="center" valign="top">
+            <h3>Jorge el curioso</h3>
+            <img src="exclusivos/jorge.png" height="200" width="200">
+            <p>$100</p>
+            <a href="onnom.html">Comprar producto</a>
+          </td>
+        <tr>
+          <td align="center" valign="top">
+            <h3>He-man</h3>
+            <img src="exclusivos/heman.png" height="200" width="200">
+            <p>$100</p>
+            <a href="oso.html">Comprar producto</a>
+          </td>
+        </tr>
+      </table>
+    </article>
+  </section>
+  <footer>Edgar Enrique Leos Chavez | 5°I | Programacion</footer>
+</body>
+</html>
